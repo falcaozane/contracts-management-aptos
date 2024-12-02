@@ -1,33 +1,87 @@
-## Create Aptos Dapp Boilerplate Template
+# **📄 DocCrypts: Simplifying File Storage, Organization, and Collaboration**  
 
-The Boilerplate template provides a starter dapp with all necessary dapp infrastructure and a simple wallet info implementation.
+In today's world, **storage issues** are everyone's problem! Whether it's files, images, or important documents, finding enough space and managing everything securely is tough. **DocCrypts** is here to solve that!  
+
+---
+
+### **🌟 What Does DocCrypts Do?**
+
+1. **One-Click Google Drive Integration**  
+   - Connect your Google Drive in seconds and manage everything from one place.  
+
+2. **IPFS Storage**  
+   - Store files on **IPFS (InterPlanetary File System)** for **secure and scalable storage**.  
+
+3. **Talk2Doc: Your Document Assistant**  
+   - Have questions about your documents?  
+     - Example: "What’s my registration ID in the legal property document?"  
+     - DocCrypts will fetch the answer instantly!  
+
+4. **Automatic Categorization**  
+   - Upload any document, and we'll automatically sort it into folders like **Education**, **Finance**, **Personal**, or **Legal**.  
+
+5. **Digital Signatures**  
+   - Sign documents online with secure **digital signatures**—no paper, no hassle.  
+
+6. **Access Control Management**  
+   - Decide **who can access your files** and share them securely.  
+
+7. **On-Chain AI Agent**  
+   - Automate tasks like a pro!  
+     - Example: “Share my Aadhaar card and finance documents with Sharvin (property agent).”  
+
+8. **Deploy with Your Aptos Wallet**  
+   - Use your **Aptos wallet** for on-chain document management.  
+
+---
+
+### **📖 Why You’ll Love DocCrypts**  
+
+- **No More Storage Woes**: With IPFS, storage is no longer an issue!  
+- **Smart Search**: Just ask questions instead of scrolling through piles of files.  
+- **Effortless Organization**: AI handles categorization, so you don’t have to.  
+- **Secure Collaboration**: Share documents with confidence using access control.  
+- **Automation Made Easy**: Let our AI agent handle repetitive tasks for you.  
+
+---
+
+### **🌐 Tech Behind the Magic**
+
+| **Technology**      | **Purpose**                                              |  
+|----------------------|----------------------------------------------------------|  
+| **IPFS**            | Decentralized storage for secure, scalable file management. |  
+| **AI/LLM**           | Powering document Q&A and categorization.               |  
+| **Blockchain (Aptos)** | Secure on-chain access and task automation.            |  
+| **React + Tailwind** | Building a modern, user-friendly interface.             |  
+
+---
 
 
-## The Boilerplate template provides:
+We made **DocCrypts** for people who want **simple, secure, and smart document management**. Whether you’re storing personal documents, managing legal files, or sharing work files, **DocCrypts makes life easier**.  
 
-- **Folder structure** - A pre-made dapp folder structure with a `frontend` and `move` folders.
-- **Dapp infrastructure** - All required dependencies a dapp needs to start building on the Aptos network.
-- **Wallet Info implementation** - Pre-made `WalletInfo` components to demonstrate how one can use to read a connected Wallet info.
+---
 
-### What tools the template uses?
+### **💻 How to Get Started?**
 
-- React framework
-- Vite development tool
-- shadcn/ui + tailwind for styling
-- Aptos TS SDK
-- Aptos Wallet Adapter
-- Node based Move commands
+1. **Clone the Project:**  
+   ```bash  
+   git clone https://github.com/your-repo/doccrypts.git  
+   ```  
 
-### What Move commands are available?
+2. **Install Dependencies:**  
+   ```bash  
+   npm install  
+   ```  
 
-The tool utilizes [aptos-cli npm package](https://github.com/aptos-labs/aptos-cli) that lets us run Aptos CLI in a Node environment.
+3. **Set Up Environment Variables:**  
+   - Add your **Google Drive API keys**, **Aptos wallet details**, and **IPFS node credentials** in a `.env` file.  
 
-Some commands are built-in the template and can be ran as a npm script, for example:
+4. **Run the App:**  
+   ```bash  
+   npm run dev  
+   ```  
 
-- `npm run move:init` - a command to initialize an account to publish the Move contract and to configure the development environment
-- `npm run move:publish` - a command to publish the Move contract
-- `npm run move:test` - a command to run Move unit tests
-- `npm run move:compile` - a command to compile the Move contract
-- `npm run deploy` - a command to deploy the dapp to Vercel
+5. **Visit the Web App:**  
+   Open [http://localhost:3000](http://localhost:3000) to start using DocCrypts!  
 
-For all other available CLI commands, can run `npx aptos` and see a list of all available commands.
+---
