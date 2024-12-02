@@ -1,0 +1,11 @@
+[package]
+name = "hash_sign_02"
+version = "1.0.0"
+
+[addresses]
+HashSign="Replace_with_your_wallet_address_🔑"
+aptos_framework = "0x1"
+
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-framework", rev = "testnet" }
